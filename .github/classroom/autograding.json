@@ -38,7 +38,7 @@
         },
         {
             "name": "problem_1",
-            "run": "pytest -v tests/test_pytorch_basic.py::problem_1",
+            "run": "pytest -v tests/test_pytorch_basic.py::test_problem_1",
             "input": "",
             "output": "",
             "comparison": "exact",
@@ -47,7 +47,7 @@
         },
         {
             "name": "problem_2",
-            "run": "pytest -v tests/test_pytorch_basic.py::problem_2",
+            "run": "pytest -v tests/test_pytorch_basic.py::test_problem_2",
             "input": "",
             "output": "",
             "comparison": "exact",
@@ -56,7 +56,7 @@
         },
         {
             "name": "problem_3",
-            "run": "pytest -v tests/test_pytorch_basic.py::problem_3",
+            "run": "pytest -v tests/test_pytorch_basic.py::test_problem_3",
             "input": "",
             "output": "",
             "comparison": "exact",
